@@ -17,6 +17,7 @@ public static void main(String[] args) throws InterruptedException {
 		
 		driver.get("http://sanbox.undostres.com.mx");//go to the url
 		
+		System.out.println("");
 		WebElement mobile=driver.findElement(By.xpath("//div[@class='field']/descendant::div/descendant::input[@data-qa='celular-mobile']"));
 		mobile.sendKeys("8465433546");// send data to mobile number field
 		
